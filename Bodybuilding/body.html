@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>بدنسازی</title>
+  <style>
+    body {
+      font-family: "Vazir", sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+
+    header img { display: block;
+      margin: 16px auto;
+      max-width: 90%;
+      height: auto;
+    }
+
+    h1 {
+      margin: 20px 0;
+      color: #333;
+    }
+
+    .gifs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      justify-items: center;
+    }
+
+    .gif-item {
+      background: #fff;
+      padding: 10px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .gif-item img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .gif-name {
+      margin-top: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #444;
+    }
+    @media (max-width: 480px) {
+        .gifs{gap: 2px; padding: 4px;}
+        .gif-item{max-width: 90%; padding: 8px;}
+        .gif-name{font-size:10px; margin-top: 4px;}}
+  </style>
+</head>
+<body>
+
+  <h1>Lower Body</h1>
+  <header>
+    <img src="photo_Lower Body Power.jpg" alt="تصویر بالای سایت">
+  </header>
+
+  <h1>تمرینات</h1>
+
+  <!-- بخش گیف‌ها -->
+  <div class="gifs">
+    <div class="gif-item">
+      <img src="./Gifs/Barbell-Bench-Press.gif" alt="Barbell Bench Press">
+      <div class="gif-name">Barbell Bench Press</div>
+    </div>
+
+    <div class="gifs">
+    <div class="gif-item">
+      <img src="./Gifs/Barbell-Bench-Press.gif" alt="Barbell Bench Press">
+      <div class="gif-name">Barbell Bench Press</div>
+    </div>
+  </div>
+
+</body>
+</html>
