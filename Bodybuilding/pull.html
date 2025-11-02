@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pull</title>
+  <style>
+    body {
+      font-family: "Vazir", sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+
+    header img { display: block;
+      margin: 16px auto;
+      max-width: 90%;
+      height: auto;
+    }
+
+    h1 {
+      margin: 20px 0;
+      color: #333;
+    }
+
+    .gifs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      justify-items: center;
+    }
+
+    .gif-item {
+      background: #fff;
+      padding: 10px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .gif-item img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .gif-name {
+      margin-top: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #444;
+    }
+    @media (max-width: 480px) {
+        .gifs{gap: 2px; padding: 4px;}
+        .gif-item{max-width: 90%; padding: 8px;}
+        .gif-name{font-size:10px; margin-top: 4px;}}
+  </style>
+</head>
+<body>
+
+  <h1>جلو و پشت بازو و میان تنه</h1>
+  <header>
+    <img src="pull.jpg" alt="تصویر بالای سایت">
+  </header>
+
+  <h1>تمرینات</h1>
+
+  <!-- بخش گیف‌ها -->
+  <div class="gifs">
+    <div class="gif-item">
+      <img src="./Gifs/Lat-Pulldown.gif" alt="Lat-Pulldown">
+      <div class="gif-name">Lat Pulldown</div>
+    </div>
+
+    <div class="gif-item">
+      <img src="./Gifs/Seated-Cable-Row.gif" alt="Seated-Cable-Row">
+      <div class="gif-name">Seated Cable Row</div>
+    </div>
+
+    <div class="gif-item">
+      <img src="./Gifs/Seated-Cable-Rope-Row.gif" alt="Seated-Cable-Rope-Row">
+      <div class="gif-name">Seated Cable Rope Row</div>
+    </div>
+
+    <div class="gif-item">
+      <img src="./Gifs/Barbell-Curl.gif" alt="Barbell-Curl">
+      <div class="gif-name">Barbell Curl</div>
+    </div>
+
+    <div class="gif-item">
+      <img src="./Gifs/Dumbbell-Curl.gif" alt="Dumbbell-Curl">
+      <div class="gif-name">Dumbbell Curl</div>
+    </div>
+
+    <div class="gif-item">
+      <img src="./Gifs/Hammer-Curl.gif" alt="Hammer-Curl">
+      <div class="gif-name">Hammer Curl</div>
+    </div>
+
+    <div class="gif-item">
+      <img src="./Gifs/Weighted-Back-Extension.gif" alt="Weighted-Back-Extension">
+      <div class="gif-name">Weighted Back Extension</div>
+    </div>
+
+    <div class="gif-item">
+      <img src="./Gifs/Hanging-Leg-Raises.gif" alt="Hanging-Leg-Raises">
+      <div class="gif-name">Hanging Leg Raises</div>
+    </div>
+
+  </div>
+  <a href="index.html">برگشت به سایت اصلی</a>
+
+</body>
+</html>
